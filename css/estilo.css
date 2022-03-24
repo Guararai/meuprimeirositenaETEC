@@ -1,15 +1,15 @@
 body{
-<<<<<<< HEAD
     background-color: rgb(26, 23, 23);
-=======
-    background-color: gray;
->>>>>>> 440352e31e5b51b22e49998dedada6bd62dbf090
+    background-image: url(https://i.pinimg.com/originals/2f/96/a7/2f96a7313acb7158ef677f834360eebe.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 
 }
 
 h1 {
-<<<<<<< HEAD
-    color: rebeccapurple;
+    color: rgb(92, 31, 153);
     text-align: center;
 }
 
@@ -24,8 +24,5 @@ figure{
 
         text-align: center;
 
+
 }
-=======
-    color: orange;
-}
->>>>>>> 440352e31e5b51b22e49998dedada6bd62dbf090
