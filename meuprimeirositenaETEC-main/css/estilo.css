@@ -1,0 +1,43 @@
+body{
+
+    background-image: url(https://64.media.tumblr.com/05180ef40dba8367caf540f2053724dd/7fb0206acd8058fa-66/s540x810/d9486361a9e1150dbc7ee90c133c0abbf2dcf88e.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+h1 {
+    color: hsl(270, 52%, 26%);
+    text-align: center;
+}
+
+
+.container{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+figure{
+
+        text-align: center;
+
+
+}
+
+.img_topo{
+
+    width: 80%;
+}
+
+p{
+    font-size:1.3em;
+    color: rgb(63, 27, 27);
+    font-weight: bolder;
+    text-indent: 50px;
+    
+
+}
