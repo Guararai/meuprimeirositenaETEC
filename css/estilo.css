@@ -1,3 +1,10 @@
+html {
+
+    scroll-behavior:smooth;
+}
+
+
+
 body{
 
     background-image: url(https://64.media.tumblr.com/05180ef40dba8367caf540f2053724dd/7fb0206acd8058fa-66/s540x810/d9486361a9e1150dbc7ee90c133c0abbf2dcf88e.gif);
@@ -39,5 +46,12 @@ p{
     font-weight: bolder;
     text-indent: 50px;
     
+
+}
+
+
+.sla {
+text-align: center;
+color:maroon;
 
 }
