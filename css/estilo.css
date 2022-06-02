@@ -19,7 +19,9 @@ h1 {
     color:  #E60039;
     text-align: center;
     margin: auto;
-  
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 
@@ -55,7 +57,8 @@ p{
 .sla {
 text-align: center;
 color:#DB070A;
-
+font-size: 1.3em;
+line-height: 1.5;
 }
 
 
@@ -84,4 +87,12 @@ color: #E60039;
     white-space: nowrap;
   }
   
-  
+  footer{
+    background-color: rgba(22, 10, 6, 0.3);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.center{
+    text-align: center;
+}
