@@ -1,98 +1,129 @@
 html {
-
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
-
-
-body{
-
+body {
     background-image: url(https://a-static.besthdwallpaper.com/chainsaw-man-makima-4k-wallpaper-3840x2160-79265_54.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-
+    text-align: center;
 }
 
 h1 {
-    color:  #E60039;
+    color: #E60039;
     text-align: center;
     margin: auto;
     font-size: 2em;
     margin-top: 1%;
     margin-bottom: 1%;
+    padding: 10px;
 }
 
+h2 {
+    color: #E60039;
+    font-size: 25px;
+    padding: 1%;
+    padding-left: 3.8%;
+}
 
-.container{
+.negócio {
 
+    padding-top: 15.2%;
+}
+
+.logo {
+    background-color: rgba(22, 10, 6, 0.3);
+}
+
+.container {
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-figure{
-
-        text-align: center;
-
-
+figure {
+    text-align: center;
 }
 
-.img_topo{
-    height: 50%;
-    width: 50%;
+.img_topo {
+    height: 40%;
+    width: 30%;
 }
 
-p{
-    font-size:1.3em;
+p {
+    font-size: 1.3em;
     color: #E60039;
     font-weight: bolder;
     text-indent: 50px;
-    
-
 }
 
 
 .sla {
-text-align: center;
-color:#DB070A;
-font-size: 1.3em;
-line-height: 1.5;
+    text-align: center;
+    color: #DB070A;
+    font-size: 1.3em;
+    line-height: 1.5;
 }
-
 
 a:link {
+    color: #E60039;
+}
 
-color: #E60039;
+a:visited {
+    color: #E60039;
+}
+
+a:hover {
+    color: #DB070A;
+}
+
+a:active {
+    color: #DB070A;
+}
+
+div.scrollmenu {
+    background-color: rgba(22, 10, 6, 0.3);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: rgba(22, 10, 6, 0.3);
+    padding-top: 0.6%;
+    padding-bottom: 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+.instagram {
+    width: 36px;
+
 
 }
 
- a:visited {
-    color: #E60039;
-  }
-  
-
-  a:hover {
-    color: #DB070A;
-  }
-  
-  a:active {
-    color: #DB070A;
-  }
-
-  div.scrollmenu {
-    background-color: #E60039;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  
-  footer{
+.decima {
     background-color: rgba(22, 10, 6, 0.3);
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.center{
+.texto {
     text-align: center;
+}
+
+.botão {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 2px;
+    cursor: pointer;
+    margin: 1%;
+    width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
 }
