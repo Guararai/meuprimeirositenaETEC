@@ -10,17 +10,31 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="icon" type="img/iconnn" href="img/iconnn.jpg">
 </head>
+
 <body>
     <p id="demo"></p>
     <p>
     </p>
     <p>
+    <p>
+        <audio id="audio" control loop>
+            <source src="./musicas/chainsawOST.mp3" type="audio/mpeg">
+        </audio>
+    </p>
     <h1>
         aguarde a surpresa ._.
     </h1>
+    <img id="somum" class="som" src="img/music.png" alt="muisic">
+
     </p>
     <p>
         <script class="texto">
+            var somum = document.getElementById("audio");
+            onclick = function () {
+                somum.play();
+            }
+            var vid = document.getElementById("audio");
+            vid.volume = 0.3;
             var countDownDate = new Date("Oct 30, 2022 00:00:00").getTime();
             var x = setInterval(function () {
                 var now = new Date().getTime();
@@ -191,12 +205,13 @@
                     <p style="font-size: 22px; padding-top: 1%;">Desenvolvido por Guararai</p>
                     <br>
                     <p>
-                        <a href="https://instagram.com/_.guararayhii._?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><img class="instagram"
-                                src="img/instagramm.png"></a>
+                        <a href="https://instagram.com/_.guararayhii._?igshid=YmMyMTA2M2Y=" target="_blank"
+                            rel="noopener noreferrer"><img class="instagram" src="img/instagramm.png"></a>
                     </p>
                 </div>
         </figure>
         </footer>
     </div>
 </body>
+
 </html>

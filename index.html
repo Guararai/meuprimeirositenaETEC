@@ -33,7 +33,7 @@
                 margin-left: 40px;
             }
         </style>
-        <div class="scrollmenu">
+        <div id="scrool" class="scrollmenu">
             <div>
                 <img class="img_topo" src="img/macinha.png" alt="denji">
                 <img class="img_topo" src="img/abaxi.jpg" alt="denji">
@@ -49,11 +49,23 @@
         </figure>
         <div class="menu">
             <div class="sla">
+                <p><img id="somdois" class="som" src="img/music.png" alt="muisic"></p>
                 <h2>
                     <a class="botão" href="#serrinha"> CHAINSAW </a>
                     <p></p>
                     <a class="botão" href="#rag"> RAGNAROK </a>
                 </h2>
+                <audio id="audiodois" control loop>
+                    <source src="./musicas/chainsawOST.mp3" type="audio/mpeg">
+                </audio>
+                <script>
+                    var somdois = document.getElementById("audiodois");
+                    onclick = function () {
+                        somdois.play();
+                    }
+                    var vid = document.getElementById("audiodois");
+                    vid.volume = 0.3;
+                </script>
             </div>
         </div>
         </div>
@@ -153,8 +165,8 @@
         <br>
         <figure>
             <p>
-                <a href="https://instagram.com/_.guararayhii._?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><img class="instagram"
-                        src="img/instagramm.png"></a>
+                <a href="https://instagram.com/_.guararayhii._?igshid=YmMyMTA2M2Y=" target="_blank"
+                    rel="noopener noreferrer"><img class="instagram" src="img/instagramm.png"></a>
             </p>
         </figure>
     </footer>
