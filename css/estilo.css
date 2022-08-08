@@ -5,11 +5,12 @@ html {
 @font-face {
     font-family: MouseMemoirs-Regular;
     src: url(../fonts/MouseMemoirs-Regular.ttf);
-  }
-  @font-face{
+}
+
+@font-face {
     font-family: BebasNeue-Regular;
     src: url(../fonts/BebasNeue-Regular.ttf);
-  }
+}
 
 body {
     background-image: url(https://a-static.besthdwallpaper.com/chainsaw-man-makima-4k-wallpaper-3840x2160-79265_54.jpg);
@@ -102,21 +103,23 @@ table {
     font-weight: bolder;
     text-indent: 50px;
 
-  }
+}
 
-  td, th {
+td,
+th {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
-  }
-  
-  .peidi{
+}
+
+.peidi {
     padding-top: 5%;
-  }
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #E60039;
     color: #000000;
-  }
+}
 
 
 .sla {
@@ -135,6 +138,16 @@ a:visited {
 
 a:hover {
     color: #DB070A;
+}
+
+.som {
+    display: inline-block;
+    background-color: rgba(214, 4, 56, 0.8);
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    width: 4%;
+    height: 4%;
 }
 
 a:active {
