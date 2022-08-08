@@ -85,12 +85,24 @@ p {
     font-family: MouseMemoirs-Regular;
     color: #d60438;
     letter-spacing: 2.3px;
+    text-indent: 50px;
+
+}
+
+.h4{
+    text-align: center;
+    font-size: 120%;
+    font-family: MouseMemoirs-Regular;
+    color: #E60039;
+    letter-spacing: 2.3px;
     line-height: 1.3;
     padding: 0.5%;
+    padding-right: 2.75%;
     font-weight: bolder;
     text-indent: 50px;
 
 }
+
 
 table {
     font-family: BebasNeue-Regular;
