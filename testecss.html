@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="img/iconnn" href="img/iconnn.jpg">
+    <title> >:( </title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p {
+            color: blueviolet;
+        }
+
+        .container {
+            position: relative;
+            background-color: blueviolet;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: chartreuse;
+
+        }
+
+        .topodireita {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: red;
+
+        }
+
+        .baixoesquerda {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellow;
+
+        }
+
+
+        .baixodireita {
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: aqua;
+
+        }
+
+        .centro {
+            position: absolute;
+            width: 20%;
+            background-color: palevioletred;
+            top: 610px;
+            right: 40%;
+
+
+        }
+
+        .fixa {
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="fixa" style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
+    </header>
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
+        </div>
+
+    </div>
+    <footer class="formulário">
+        <a class="botão" href="index.html">
+            <h2>Voltar</h2>
+        </a>
+        <div class="po">
+            <p style="font-size: 150%; padding-top: 1%;">Desenvolvido por Guararai</p>
+            <br>
+            <figure>
+                <p>
+                    <a href="https://instagram.com/_.guararayhii._?igshid=YmMyMTA2M2Y=" target="_blank"
+                        rel="noopener noreferrer"><img class="instagram" src="img/instagramm.png"></a>
+                </p>
+        </div>
+        </figure>
+    </footer>
+
+</body>
+
+</html>
