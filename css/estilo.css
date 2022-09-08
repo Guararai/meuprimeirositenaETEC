@@ -2,6 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.coisinhaprolado{
+    padding-left: 3.3em;
+}
+
+.coisafixa{
+    position: fixed;
+    padding-left: 33%;
+    
+}
+
 @font-face {
     font-family: MouseMemoirs-Regular;
     src: url(../fonts/MouseMemoirs-Regular.ttf);
@@ -69,7 +79,11 @@ h2 {
 }
 
 .loguinho {
-    width: 40%;
+    padding-left: 7%;
+    user-select: none;
+    width: 46%;
+    margin-top: -10%;
+    
 }
 
 .negócio {
@@ -179,6 +193,10 @@ a:hover {
     border-radius: 17%;
     width: 4%;
     height: 4%;
+}
+
+.menu{
+    margin-top: -5%;
 }
 
 a:active {
