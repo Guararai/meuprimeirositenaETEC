@@ -2,14 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.coisinhaprolado{
-    padding-left: 3.3em;
-}
-
 .coisafixa{
     position: fixed;
-    padding-left: 33%;
-    
+    right: 51%;
+    z-index: 1000;
+  
 }
 
 @font-face {
@@ -79,9 +76,9 @@ h2 {
 }
 
 .loguinho {
-    padding-left: 7%;
     user-select: none;
-    width: 46%;
+    width: 35%;
+    padding-left: 85%;
     margin-top: -10%;
     
 }
@@ -167,8 +164,8 @@ tr:nth-child(even) {
 
 
 .sla {
-    text-align: center;
     color: #DB070A;
+    font-size: 90%;
     line-height: 1.5;
 }
 
@@ -269,9 +266,11 @@ input[type=submit]:hover {
     font-family: 'MouseMemoirs-Regular', cursive;
 }
 
+
 footer {
     background-color: rgba(22, 10, 6, 0.3);
     padding-top: 0.3%;
+    width: 100% ;
     padding-bottom: 0.3%;
 }
 
@@ -283,8 +282,13 @@ footer {
 }
 
 .decima {
-    background-color: rgba(22, 10, 6, 0.35);
+    background-color: rgba(6, 6, 6, 0.99);
     padding-top: 2%;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 16%;
+    fill: #000000;
     padding-bottom: 2%;
 }
 
@@ -300,7 +304,7 @@ footer {
 
 
 .botão {
-    padding: 1% 2%;
+    padding: 0.5% 1%;
     text-decoration: none;
     display: inline-block;
     font-size: 145%;
@@ -313,11 +317,154 @@ footer {
     border-radius: 8px;
 }
 
+.coisinhaprolado{
+    right: 500%;
+    padding-right: 10%;
+    width: 200% ;
+}
+
 @media screen and (max-width: 1000px) {
 
     .fotinha,
     .loguinho {
-        padding: 0%;
-        min-width: 320px;
+       
+        min-width: 100px;
     }
+
+    .decima{
+        height: 20%;
+    }
+    .sla{
+        font-size: 58%;
+    }
+ .coisafixa{
+width: 1%;
+display: inline;
+margin-left: 1%;
+
+
+
+ }
+}
+@media screen and (max-width: 630px ) {
+
+    .fotinha,
+    .loguinho {
+       
+        min-width: 100px;
+    }
+ .logo{
+    margin-top: 17%;
+    width: 100% ;   
+    font-size: 60%;
+ }
+    .decima{
+        height: 15%;
+    }
+    .sla{
+        font-size: 58%;
+    }
+ .coisafixa{
+width: 1%;
+display: inline;
+margin-left: 1%;
+
+
+
+ }
+ .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }   
+
+}
+@media screen and (max-width: 430px ) {
+
+    .fotinha,
+    .loguinho {
+       
+        min-width: 100px;
+    }
+ .logo{
+    margin-top: 50%;
+    width: 100% ;   
+    font-size: 60%;
+ }
+    .decima{
+        height: 6%;
+    }
+    .sla{
+        font-size: 58%;
+        width: 50%;
+    }
+ .coisafixa{
+width: 1%;
+display: inline;
+margin-left: 1%;
+
+
+
+ }
+ .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }   
+
+}
+
+@media screen and (max-width: 330px ) {
+
+    .fotinha,
+    .loguinho {
+       
+        min-width: 100px;
+    }
+ .logo{
+    margin-top: 150%;
+    width: 100% ;   
+    font-size: 60%;
+ }
+    .decima{
+        height: 6%;
+    }
+    .sla{
+        font-size: 58%;
+    }
+ .coisafixa{
+width: 1%;
+display: inline;
+margin-left: 1%;
+
+
+
+ }
+ .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }   
+}
+
+
+@media screen and (max-width: 800px ) {
+
+    .fotinha,
+    .loguinho {
+       
+        min-width: 100px;
+    }
+
+    .decima{
+        height: 18.5%;
+    }
+    .sla{
+        font-size: 58%;
+    }
+ .coisafixa{
+width: 1%;
+display: inline;
+margin-left: 1%;
+
+
+
+ }
 }
