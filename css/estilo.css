@@ -312,7 +312,7 @@ footer {
     margin: 1%;
     width: 5%;
     max-width: max-content;
-    min-width: 100px;
+    min-width: 60px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     border-radius: 8px;
 }
@@ -328,11 +328,11 @@ footer {
     .fotinha,
     .loguinho {
        
-        min-width: 100px;
+        min-width: 80px;
     }
 
     .decima{
-        height: 20%;
+        height: 19%;
     }
     .sla{
         font-size: 58%;
@@ -372,6 +372,7 @@ margin-left: 1%;
 
 
  }
+ 
  .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -454,10 +455,13 @@ margin-left: 1%;
     }
 
     .decima{
-        height: 18.5%;
+        height: 20%;
     }
     .sla{
         font-size: 58%;
+    }
+    .botão{
+        font-size: 120%;
     }
  .coisafixa{
 width: 1%;
