@@ -203,7 +203,7 @@ a:active {
 div.scrollmenu {
     background-color: rgba(22, 10, 6, 0.3);
     overflow: auto;
-    min-width: 700px;
+  
     white-space: nowrap;
 }
 
@@ -354,7 +354,7 @@ margin-left: 1%;
         min-width: 100px;
     }
  .logo{
-    margin-top: 17%;
+    margin-top: 5%;
     width: 100% ;   
     font-size: 60%;
  }
@@ -386,7 +386,7 @@ margin-left: 1%;
         min-width: 100px;
     }
  .logo{
-    margin-top: 50%;
+    margin-top: 2%;
     width: 100% ;   
     font-size: 60%;
  }
@@ -395,7 +395,7 @@ margin-left: 1%;
     }
     .sla{
         font-size: 58%;
-        width: 50%;
+        width: 5%;
     }
  .coisafixa{
 width: 1%;
@@ -420,7 +420,7 @@ margin-left: 1%;
         min-width: 100px;
     }
  .logo{
-    margin-top: 150%;
+    margin-top: 50%;
     width: 100% ;   
     font-size: 60%;
  }
